@@ -20,7 +20,6 @@ class SpecificationsRepository implements ISpecificationsRepository {
       SpecificationsRepository.INSTANCE = new SpecificationsRepository();
     }
 
-    console.log('#', SpecificationsRepository.INSTANCE);
     return SpecificationsRepository.INSTANCE;
   }
 
