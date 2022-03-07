@@ -1,1 +1,3 @@
+# yarn install
 # run docker-compose up
+# yarn typeorm migration:run
